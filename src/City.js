@@ -20,14 +20,14 @@ export default function City() {
             <p className="temperature">
               <span id="temp-display">18 </span>
               <span id="temp-units">
-                <a id="celcius" href="#" className="active">
+                <button>
                   °C
-                </a>
+                </button>
                 |
-                <a id="farenheit" href="#">
+                <button>
                   {" "}
                   °F
-                </a>
+                </button>
               </span>
             </p>
             <hr />

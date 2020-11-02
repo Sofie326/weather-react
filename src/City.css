@@ -11,9 +11,11 @@
 .City p {
   font-size: 20px;
 }
-.City a {
+.City button {
   color: #ffffff;
   text-decoration: none;
+  background: none;
+  border: none;
 }
 .City hr {
   max-width: 150px;
