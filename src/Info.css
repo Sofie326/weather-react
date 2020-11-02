@@ -1,0 +1,12 @@
+.Info .temperature .active {
+  cursor: default;
+}
+.Info .temperature .active:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.Info h3 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+}

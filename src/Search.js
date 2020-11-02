@@ -1,0 +1,14 @@
+import React from "react";
+import "./Search.css";
+
+export default function Search() {
+  return (
+    <div className="Search">
+      <form className="search-form">
+        <input type="text" placeholder="Search" className="input-bar" />
+        <input type="submit" value="🔍" className="search-button" />
+      </form>
+      <button id="current-button">Current Location</button>
+    </div>
+  );
+}
